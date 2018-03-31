@@ -6,18 +6,34 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<form action="tampil.php" method="post">
-	
-	<h1 style="font-family : Century Gothic;">Olah nilai mahasiswa</h1>
-	UTS : <input type="text" name="uts"><br>
-	UAS : <input type="text" name="uas"><br>
-	QUIZ : <input type="text" name="quiz"><br>
-	TUGAS : <input type="text" name="tugas"><br>
-	<br>
-	
-    <input type="submit" name="poses">
-
-	</form>
-
+	<table>
+		<form action="tampil.php" method="post">
+		<h1 style="font-family : Century Gothic;">Olah nilai mahasiswa</h1>
+		<tr>
+			<td>UTS </td>
+			<td> : <input type="text" name="uts"></td>
+		</tr>
+		<tr>
+			<td>UAS </td>
+			<td> : <input type="text" name="uas"></td>
+		</tr>
+		<tr>
+			<td>QUIZ </td>
+			<td> : <input type="text" name="quiz"></td>
+		</tr>
+		<tr>
+			<td>TUGAS </td>
+			<td>: <input type="text" name="tugas"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+    				<input type="submit" name="poses">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><hr></td>
+		</tr>
+		</form>
+	</table>
 </body>
 </html>
